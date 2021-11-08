@@ -1,6 +1,12 @@
-<h1>Answer</h1>
 
-<p><%= @question %> - You</p>
-<p><%= @answer %> - The Coach</p>
+<div class="textbox">
+  <p><%= @question %></p>
+  <p>-You</p>
+</div>
+
+<div class="textbox">
+  <p><%= @answer %></p>
+  <p>-The Coach</p>
+</div>
 
 <%= link_to 'Ask something else.', '/ask' %>
